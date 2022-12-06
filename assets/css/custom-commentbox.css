@@ -1,0 +1,15 @@
+/* override comment box with right-sidebar style */
+#box_comment{padding-bottom:0!important}
+.wrapper-comment{position:relative;width:100%;height:auto;max-width:700px;margin:0 auto;padding:0 10px;right:0;visibility:unset;backface-visibility:unset}
+.sidebar_comment_box {z-index: 10000;width: 440px;position: fixed;background: #fff;height: calc(100vh - 46px);top: 46px;right:-550px;transition: right 0.5s ease;-webkit-box-shadow: -2px 0px 5px -1px rgba(122,122,122,0.7);-moz-box-shadow: -2px 0px 5px -1px rgba(122,122,122,0.7);box-shadow: -2px 0px 5px -1px rgba(122,122,122,0.7);}
+.sidebar_comment_box.visible {z-index: 10000;right: 0px;background: #fff;transition: right 0.5s ease;}
+.sidebar_comment_box.visible .comment-box-content {height: calc(100% - 35px);overflow-y: auto;overflow-x: hidden;padding: 10px;}
+.sidebar_comment_box .close-sidebar {padding: 0 10px;position: relative;}
+.sidebar_comment_box .close-sidebar .close-x {z-index: 999;cursor: pointer;font-size: 25px;}
+.sidebar_comment_box .box_comment_vne .view_more_comment, .sidebar_comment_box #box_comment .view_more_comment {z-index: 10000 !important;}
+
+
+@media (max-width: 576px) {
+    .sidebar_comment_box {  width: 320px; }
+    .sidebar_comment_box .close-sidebar .close-x { font-size: 30px; }
+}

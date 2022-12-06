@@ -1,0 +1,123 @@
+
+$images   : "../images";
+$url-font : "../fonts";
+
+/*********************************** Typography *********************************/
+
+
+$font-family-primary   : 'Myriad Pro';
+$font-family-secondary : 'Myriad Pro';
+$font-icon             : 'Font Awesome 5 Duotone';
+$font-size-body        : 17px;
+$text-color			   : #474747;
+
+
+/*********************************** Set up *********************************/
+
+
+// long form
+//
+// background-color, font-family, padding-bottom
+
+$longform-background : #d9f1ff;
+$longform-fontFamily : $font-family-primary;
+$longform-pBottom    : 0;
+
+
+
+// t-content
+//
+// width, p margin bottom, color, font size, margin-top
+
+$tContent-width      : 740px;
+$tContent-padding    : 0 15px;
+$tContent-pMarginBt  : 25px;
+$tContent-color      : $text-color;
+$tContent-fontSize   : $font-size-body;
+$tContent-fontWeight : normal;
+$tContent-marginTop  : 30px;
+$tContent-fontFamily : $font-family-primary;
+
+
+// lead
+//
+// width, p margin bottom, color, padding, font-size, font-weight, margin-top
+
+$tLead-width          : 1140px;
+$tLead-padding        : 0 15px;
+$tLead-color          : #212121;
+$tLead-fontSize       : 35px;
+$tLead-fontSizeMobile : 20px;
+$tLead-fontWeight     : normal;
+$tLead-marginTop      : 20px;
+$tLead-fontFamily     : $font-family-secondary;
+$tLead-lineHeight     : 1.5;
+
+
+
+// people
+//
+// width, padding, color, font size, font weight, border, count, margin, padding
+
+$tPeople-width             : 830px;
+$tPeople-padding           : 0 15px;
+$tPeople-color             : $text-color;
+$tPeople-fontSize          : $font-size-body;
+$tPeople-fontWeight        : normal;
+$tPeople-border            : $tPeople-color;
+$tPeople-count             : 3; // số lượng người
+$tPeople-marpad            : 20px;
+$tPeople-fontWeight-strong : bold;
+
+
+// Video
+//
+// width, padding
+
+$tVideo-width  : 1280px;
+$paddingVideo  : 100px;
+
+
+// Video
+//
+// width, padding
+
+
+$tSwiper-width: 1100px;
+$tSwiperPagination-marginTop: 15px;
+$tSwiperPaginationBullet-widthHeight: 12px;
+$tSwiperPaginationBullet-background: #7d76b3;
+$tSwiperPaginationBulletActive-background: #e472a2;
+$tSwiperButtonContainer-width: $tSwiper-width;
+$tSwiperButton-widthHeight: 50px;
+$tSwiperButton-color: #7d76b3;
+$tSwiperButtonHover-color: #e472a2;
+$tSwiperButtonHover-fontSize: 40px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

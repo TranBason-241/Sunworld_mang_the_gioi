@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+    <!-- Core stylesheet -->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="assets/css/fontawesome.min.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="assets/css/general_v2_min.css"
+    />
+    <link type="text/css" rel="stylesheet" href="assets/css/global.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="assets/css/animate-v4.min.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="assets/css/swiper-bundle.min.css"
+    />
+    <link type="text/css" rel="stylesheet" href="assets/css/aos.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/main.css" />
+    <!-- End stylesheet -->
+
+    <title>Cách Sun World 'kể chuyện' ở mỗi vùng đất - VnExpress</title>
+  </head>
+
+  <body>
+    <!-- Document Warpper -->
+    <div id="warpper" class="clearfix">
+      <!-- Top Nav -->
+      <div id="topbar" class="topbar fixed-top clearfix nav-down">
+        <div class="container">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target=""
+          >
+            <span class="sr-only">Toggle navigation</span
+            ><span class="toggle-icon"></span>
+          </button>
+          <a href="https://vnexpress.net/" class="logo" id="logo"
+            ><img
+              src="assets/images/logo-150x29.png"
+              alt="VnExpress"
+              class="pc-only img-100"
+          /></a>
+          <div class="block-right">
+            <a
+              href="#box_comment"
+              class="button-comments count_comment"
+              data-target=""
+            >
+              <i class="fas fa-comment"></i>
+              <span class="counter">Bình luận</span>
+            </a>
+            <ul class="list-inline social">
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  class="si-facebook shape-circle social-item fb_share"
+                  data-type="fb_share"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  class="si-twitter shape-circle social-item tw_share"
+                  data-type="tw_share"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+            </ul>
+            <form
+              action="https://timkiem.vnexpress.net/"
+              method="get"
+              class="block-right"
+            >
+              <div class="search">
+                <input
+                  autocomplete="off"
+                  type="text"
+                  class="search-input"
+                  placeholder="Tìm kiếm"
+                  maxlength="80"
+                  name="q"
+                />
+                <span class="search-btn">
+                  <button type="submit">
+                    <i class="fas fa-search"></i>
+                  </button>
+                </span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- End Top Nav -->
+      <!-- Menu -->
+      <div class="mask-content"></div>
+      <div id="menu-box" class="menu-box" tabindex="5000">
+        <div class="box_width_common">
+          <div class="block_scoll_menu">
+            <ul class="list_item_panel">
+              <li>
+                <a href="https://vnexpress.net/"
+                  ><i class="ic ic-m-home"></i>Trang chủ</a
+                >
+              </li>
+              <li>
+                <a href="https://vnexpress.net/thoi-su"
+                  ><i class="ic ic-m-news"></i>Thời sự</a
+                >
+              </li>
+              <li>
+                <a href="https://vnexpress.net/goc-nhin"
+                  ><i class="ic ic-m-opinion"></i>Góc nhìn</a
+                >
+              </li>
+              <li>
+                <a href="https://vnexpress.net/the-gioi"
+                  ><i class="ic ic-m-world"></i>Thế giới</a
+                >
+              </li>
+              <li>
+                <a href="https://vnexpress.net/kinh-doanh"
+                  ><i class="ic ic-m-business"></i>Kinh doanh</a
+                >
+              </li>
+              <li>
+                <a href="https://vnexpress.net/giai-tri"
+                  ><i class="ic ic-m-entertainment"></i>Giải trí</a
+                >
+              </li>
+              <li>
+                <a href="https://vnexpress.net/the-thao"
+                  ><i class="ic ic-m-sport"></i>Thể thao</a
+                >
+              </li>
+              <li>
+                <a href="https://vnexpress.net/phap-luat"
+                  ><i class="ic ic-m-law"></i>Pháp luật</a
+                >
+              </li>
+              <li>
+                <a href="https://vnexpress.net/giao-duc"
+                  ><i class="ic ic-m-education"></i>Giáo dục</a
+                >
+              </li>
+              <li>
+                <a href="https://vnexpress.net/suc-khoe"
+                  ><i class="ic ic-m-health"></i>Sức khỏe</a
+                >
+              </li>
+              <li>
+                <a href="https://vnexpress.net/doi-song"
+                  ><i class="ic ic-m-family"></i>Đời sống</a
+                >
+              </li>
+              <li class="active">
+                <a href="https://vnexpress.net/du-lich"
+                  ><i class="ic ic-m-travel"></i>Du lịch</a
+                >
+              </li>
+              <li>
+                <a href="https://vnexpress.net/khoa-hoc"
+                  ><i class="ic ic-m-science"></i>Khoa học</a
+                >
+              </li>
+              <li>
+                <a href="https://vnexpress.net/so-hoa"
+                  ><i class="ic ic-m-technology"></i>Số hóa</a
+                >
+              </li>
+              <li>
+                <a href="https://vnexpress.net/oto-xe-may"
+                  ><i class="ic ic-m-car"></i>Xe</a
+                >
+              </li>
+              <li>
+                <a href="https://vnexpress.net/y-kien"
+                  ><i class="ic ic-m-social"></i>Ý kiến</a
+                >
+              </li>
+              <li>
+                <a href="https://vnexpress.net/tam-su"
+                  ><i class="ic ic-m-talk"></i>Tâm sự</a
+                >
+              </li>
+              <li>
+                <a href="https://video.vnexpress.net"
+                  ><i class="ic ic-m-video"></i>Video</a
+                >
+              </li>
+              <li>
+                <a href="https://vnexpress.net/anh"
+                  ><i class="ic ic-m-photo"></i>Ảnh</a
+                >
+              </li>
+              <li>
+                <a href="https://vnexpress.net/infographics"
+                  ><i class="ic ic-m-infographic"></i>Infographics</a
+                >
+              </li>
+              <li>
+                <a href="https://vnexpress.net/cuoi"
+                  ><i class="ic ic-m-fun"></i>Cười</a
+                >
+              </li>
+              <li>
+                <a href="https://raovat.vnexpress.net"
+                  ><i class="ic ic-m-ecom"></i>Fsell</a
+                >
+              </li>
+              <li>
+                <a href="https://vnexpress.net/24h-qua" class="bg_666"
+                  ><i class="ic ic-m-24h"></i>24h qua</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://vnexpress.net/lien-he-toa-soan/"
+                  class="bg_e8e8"
+                  ><i class="ic ic-m-contact"></i>Liên hệ Tòa soạn</a
+                >
+              </li>
+              <li class="end">
+                <a href="https://vnexpress.net/contact.htm" class="bg_e8e8"
+                  ><i class="ic ic-m-mail"></i>Thông tin Tòa soạn</a
+                >
+              </li>
+            </ul>
+            <div class="coppy_right_left width_common">
+              <i class="ic ic-caret-2-down"></i>
+              <div class="txt_coppy_right">
+                <p>
+                  &copy; Copyright 1997 - VnExpress.net, All rights reserved
+                </p>
+                <p>&reg; VnExpress giữ bản quyền nội dung trên website này.</p>
+              </div>
+              <div class="txt_lienhe">
+                Hotline: <br />
+                <a href="tel:0838880123">083.888.0123 (Hà Nội)</a> <br />
+                <a href="tel:0822333555">082.233.3555 (TP HCM)</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="ascrail2000" class="nicescroll-rails">
+          <div class="vne-hr1"></div>
+        </div>
+        <div id="ascrail2000-hr" class="nicescroll-rails">
+          <div class="vne-hr2"></div>
+        </div>
+      </div>
+      <!-- End Menu -->
+      <!-- Main Content -->
+      <div class="section-content clearfix">
+        <div class="wrapper-content">
+          <div id="overlay"></div>
+          <div class="header">
+            <video
+              id="top_pc"
+              class="video_top"
+              autoplay
+              src="assets/images/sunworld_231122.mp4"
+              controls
+              loop
+              muted
+            ></video>
+
+            <!-- mobile moi -->
+            <img
+              class="img_large"
+              alt=""
+              src="assets/images/header_image_2.png"
+              id="top_mobile"
+            />
+
+            <!-- bottom  -->
+            <!-- mobile  -->
+            <!-- <img class="header__bottom img_large" src="assets/images/header_image_bottom.png" id="bottom_mobile" /> -->
+            <!-- pc  -->
+            <img
+              class="header__bottom img_large"
+              src="assets/images/header_image_3.png"
+              id="bottom_pc"
+            />
+
+            <!-- mobile layout start  -->
+            <div
+              style=""
+              class="header_content_only_mobile"
+              id="header_content_only_mobile"
+            >
+              <div class="header_content">
+                <div class="div_boder_top">
+                  <img class="img_icon" src="assets/images/icon_border.png" />
+                  <p class="mid_title t-content" id="rcorners2">
+                    Tên tuổi Sun World gắn liền Cầu Vàng ở Bà Nà Hills. <br />
+                    Nhưng Cầu Vàng chỉ là biểu tượng cho một triết lý và nỗ lực
+                    “làm đẹp những vùng đất”của thương hiệu vui chơi giải trí
+                    này.
+                  </p>
+                </div>
+                <img
+                  class="img_large img_nui"
+                  src="assets/images/image_1.png"
+                  data-aos="fade-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="600"
+                  data-aos-offset="300"
+                />
+              </div>
+            </div>
+            <div id="header_text_only_mobile">
+              <p class="mid_content">
+                Khi đoàn khảo sát của Sun Group đặt chân lên đỉnh Bà Nà lần đầu
+                tiên, họ nhìn thấy ở đó có một khách sạn đổ nát. Đó là khách sạn
+                Morin. Nó đã nằm đó một thế kỷ và là nỗ lực đầu tiên biến đỉnh
+                núi này trở thành một khu nghỉ dưỡng đẳng cấp khu vực. Nhưng
+                hành trình đó đã kết thúc sớm mà không được ai tiếp nối.
+              </p>
+              <p class="mid_content t-content">
+                Bà Nà được người Pháp nhận ra ngay từ cuối thế kỷ 19 là một địa
+                điểm thích hợp để tái tạo sức lao động. Anh em nhà Morin, một
+                gia đình nhập cư vào Hải Phòng với đôi bàn tay trắng, nhưng đã
+                làm nên một sản nghiệp lớn nhờ bất động sản tại Huế, quyết tâm
+                chinh phục Bà Nà. Họ "ném" lên đỉnh núi 30.000 đồng Đông Dương,
+                một sản nghiệp khổng lồ thời đó, để xây 16 biệt thự nghỉ dưỡng
+                và một khách sạn. Nhưng ước mơ về một khu nghỉ đẳng cấp của gia
+                đình Morin đã biến mất cùng với những biến động lịch sử giữa thế
+                kỷ 20.
+              </p>
+            </div>
+
+            <!-- mobile layout end  -->
+            <div class="header_content" id="header_content_only_pc">
+              <div class="div_boder_top">
+                <img class="img_icon" src="assets/images/icon_border.png" />
+                <p class="mid_title t-content" id="rcorners2">
+                  Tên tuổi Sun World gắn liền Cầu Vàng ở Bà Nà Hills. <br />
+                  Nhưng Cầu Vàng chỉ là biểu tượng cho một triết lý và nỗ lực
+                  “làm đẹp những vùng đất”của thương hiệu vui chơi giải trí này.
+                </p>
+              </div>
+
+              <p class="mid_content">
+                Khi đoàn khảo sát của Sun Group đặt chân lên đỉnh Bà Nà lần đầu
+                tiên, họ nhìn thấy ở đó có một khách sạn đổ nát. Đó là khách sạn
+                Morin. Nó đã nằm đó một thế kỷ và là nỗ lực đầu tiên biến đỉnh
+                núi này trở thành một khu nghỉ dưỡng đẳng cấp khu vực. Nhưng
+                hành trình đó đã kết thúc sớm mà không được ai tiếp nối.
+              </p>
+              <p class="mid_content t-content">
+                Bà Nà được người Pháp nhận ra ngay từ cuối thế kỷ 19 là một địa
+                điểm thích hợp để tái tạo sức lao động. Anh em nhà Morin, một
+                gia đình nhập cư vào Hải Phòng với đôi bàn tay trắng, nhưng đã
+                làm nên một sản nghiệp lớn nhờ bất động sản tại Huế, quyết tâm
+                chinh phục Bà Nà. Họ "ném" lên đỉnh núi 30.000 đồng Đông Dương,
+                một sản nghiệp khổng lồ thời đó, để xây 16 biệt thự nghỉ dưỡng
+                và một khách sạn. Nhưng ước mơ về một khu nghỉ đẳng cấp của gia
+                đình Morin đã biến mất cùng với những biến động lịch sử giữa thế
+                kỷ 20.
+              </p>
+            </div>
+            <img
+              id="img_nui_only_pc"
+              class="img_large img_nui"
+              src="assets/images/image_1.png"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="600"
+              data-aos-offset="600"
+            />
+
+            <!-- End custome layout  -->
+            <div class="backround_triet_ly">
+              <div class="triet_ly_content">
+                <div
+                  data-aos="fade-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="400"
+                  data-aos-offset="300"
+                >
+                  <p class="mid_content t-content">
+                    Chủ tịch HĐQT Sun Group Đặng Minh Trường vẫn nhớ nguyên ấn
+                    tượng về những tay nắm cửa bằng sứ sáng bóng trên những cánh
+                    cửa cũ nát của khách sạn Morin. "Như thể vẫn có khách ở đây
+                    ngày hôm qua", ông hồi tưởng.
+                  </p>
+                  <p class="mid_content text_white t-content">
+                    Sau công trình kỷ lục cáp treo Bà Nà, Sun Group khai trương
+                    khách sạn đầu tiên trên đỉnh núi vào năm 2009. Họ đặt tên nó
+                    là Morin.
+                  </p>
+                </div>
+                <!-- <img
+                  src="assets/images/img_triet_ly.png"
+                  class="img img_text"
+                /> -->
+                <div class="list_image_text">
+                  <img
+                    src="assets/images/img_triet_ly_group_3.png"
+                    style="position: initial"
+                    class="img"
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="600"
+                    data-aos-offset="300"
+                  />
+                  <img
+                    src="assets/images/img_triet_ly_group_1.png"
+                    class="img"
+                    data-aos="fade-left"
+                    data-aos-easing="linear"
+                    data-aos-duration="600"
+                    data-aos-offset="300"
+                  />
+                  <img
+                    src="assets/images/img_triet_ly_group_2.png"
+                    class="img"
+                  />
+                </div>
+                <div
+                  data-aos="fade-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="400"
+                  data-aos-offset="300"
+                >
+                  <p class="mid_title t-content">
+                    Mỗi vùng đất có một câu chuyện cần được kể với thế giới.<br />
+                    Sun Group luôn tâm niệm điều đó với tất cả các dự án của
+                    mình.
+                  </p>
+                  <p class="mid_content t-content">
+                    Trong lịch sử của ngành công viên giải trí, mô hình sử dụng
+                    một chủ đề (theme) và nhân rộng ở nhiều địa điểm không hiếm
+                    gặp: các tập đoàn có nhiều tài sản trí tuệ như Paramount,
+                    Warner Bros hay Disney có thể nhân rộng các chủ đề của mình
+                    ở khắp nơi trên thế giới. Nó giúp họ khai thác tối đa các
+                    sản phẩm sáng tạo, và đặc biệt là thương hiệu. Bạn thậm chí
+                    cả đời không cần bước vào các khu giải trí Legoland để tưởng
+                    tượng được trong đó sẽ có những mascot hình khối màu vàng.
+                    Bản thân chữ Lego đã nói lên hầu hết những gì có trong đó.
+                  </p>
+                </div>
+
+                <div
+                  class="list_image_frame_mobile img"
+                  id="list_image_frame_mobile"
+                >
+                  <img
+                    src="assets/images/mobile_list_1.png"
+                    style="position: initial"
+                    data-aos="zoom-in"
+                    data-aos-easing="linear"
+                    data-aos-duration="600"
+                    data-aos-offset="300"
+                  />
+                </div>
+                <div class="list_image_frame" id="list_image_frame">
+                  <img
+                    src="assets/images/img_list_1.png"
+                    style="position: initial"
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="600"
+                    data-aos-offset="300"
+                  />
+                  <img
+                    src="assets/images/img_list_2.png"
+                    data-aos="fade-up-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="600"
+                    data-aos-offset="300"
+                  />
+                  <img
+                    data-aos="fade-left"
+                    data-aos-easing="linear"
+                    data-aos-duration="600"
+                    data-aos-offset="300"
+                    data-aos-delay="200"
+                    src="assets/images/img_list_3.png"
+                  />
+                  <img
+                    src="assets/images/img_list_4.png"
+                    data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="600"
+                    data-aos-offset="300"
+                    data-aos-delay="200"
+                  />
+
+                  <img
+                    src="assets/images/img_list_5.png"
+                    data-aos="fade-up-left"
+                    data-aos-easing="linear"
+                    data-aos-duration="600"
+                    data-aos-offset="300"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- Phat  -->
+            <div class="background_phat">
+              <div class="phat_content">
+                <div
+                  data-aos="fade-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="400"
+                  data-aos-offset="300"
+                >
+                  <p class="mid_content t-content" style="z-index: 100">
+                    Nhưng ngay từ đầu, Sun Group đã tự nhận lấy sứ mệnh "mang
+                    Việt Nam ra thế giới và mang thế giới đến Việt Nam". Sun
+                    World - thương hiệu vui chơi giải trí của tập đoàn này - cụ
+                    thể hóa điều đó bằng việc kể những câu chuyện của từng vùng
+                    đất tại Việt Nam, thông qua các dự án.
+                  </p>
+                  <p class="mid_content t-content" style="z-index: 100">
+                    Trên đỉnh Bà Nà, nơi người Pháp đang kể dở câu chuyện của
+                    họ, một quần thể kiến trúc theo phong cách châu Âu được dựng
+                    lên, cùng với khí hậu tạo ra trải nghiệm của một vùng núi ôn
+                    đới ngay giữa lòng miền Trung. Không chỉ có kiến trúc, từng
+                    hoạt động như biểu diễn nghệ thuật, ẩm thực hay các chi tiết
+                    mỹ thuật đều nhằm đưa các vị khách, sau khi đặt chân xuống
+                    từ cáp treo, đến một vùng đất xa xôi của lịch sử. Sun World
+                    Ba Na Hills, với những tòa nhà theo phong cách Trung Cổ, trở
+                    thành một điểm đến không chỉ với những người Việt Nam muốn
+                    tìm trải nghiệm mới, mà còn thu hút cả du khách quốc tế.
+                    Trước Covid-19, cứ 4 người đến Đà Nẵng thì có một người đặt
+                    chân đến Bà Nà.
+                  </p>
+                  <p class="mid_content t-content" style="z-index: 100">
+                    Sun World Fansipan Legend lại là một tập hợp những câu
+                    chuyện khác, mang một tính cách khác. Nó cũng được kể bằng
+                    sự cảm nhận của các thành viên Sun Group với mảnh đất này.
+                    Quá trình xây dựng tuyến cáp treo lên nóc nhà Đông Dương gắn
+                    liền với sự khó nhọc khi sống cùng gió, tuyết và những vách
+                    đá cheo leo. Bây giờ, vẫn có thể tìm thấy trên YouTube những
+                    đoạn video mà các kỹ sư Sun Group cùng đón Tết Nguyên đán
+                    trong một ngôi lán trên vách núi Fansipan, trong những chiếc
+                    áo bông dày sụ ở những ngày lạnh nhất trong năm. Ở đó không
+                    có hoa đào, trên tường chỉ là một cành hoa đặc hữu, loài hoa
+                    hiếm hoi trổ bông rực rỡ ở độ cao này. Một cành hoa đỗ
+                    quyên. Điều này trở thành cá tính của Sun World Fansipan
+                    Legend.
+                  </p>
+                  <p class="mid_content t-content" style="z-index: 100">
+                    Nếu trên trang chủ của Sun World Ba Na Hills là các tòa lâu
+                    đài cổ tích của châu Âu thì trên trang chủ của Sun World
+                    Fansipan Legend là những bức ảnh hoa. Hoa trở thành cá tính
+                    của dự án này, như một ẩn dụ về cách nó hình thành trên
+                    những vách đá.
+                  </p>
+                </div>
+
+                <img src="assets/images/img_may_1.png" class="may_1" />
+                <img src="assets/images/img_may2.png" class="may_2" />
+                <img src="assets/images/img_may3.png" class="may_3" />
+                <img
+                  class="img img_phat"
+                  id="img_phat_mobile"
+                  src="assets/images/mobile_phat.png"
+                />
+                <img
+                  class="img img_phat"
+                  id="img_phat"
+                  src="assets/images/img_phat.png"
+                />
+                <div class="img_phat_bottom_text">
+                  <div
+                    data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="400"
+                    data-aos-offset="300"
+                  >
+                    <p class="mid_content t-content" style="z-index: 100">
+                      Bây giờ, những vị khách bắt tàu từ ga Sa Pa lên đỉnh
+                      Fansipan sẽ được kể rất nhiều câu chuyện về những loài hoa
+                      mọc trong sương gió. Họ sẽ nhìn thấy qua cửa sổ hoa tam
+                      giác mạch, hoa oải hương, hoa dơn thóc và cả hoa đỗ quyên.
+                      Khung cảnh và cá tính ấy đến sau nhiều nỗ lực của Sun
+                      World. Sau khi xây dựng xong cáp treo Fansipan, câu hỏi
+                      dày vò các thành viên của họ nhiều nhất, là việc "loài hoa
+                      nào có thể mọc trên độ cao này?". Không biết bao nhiêu
+                      loại giống hoa đã được thử, và bao nhiêu bao đất đã được
+                      vác từ dưới chân núi lên đỉnh, trước khi vườn hoa muôn sắc
+                      này hình thành.
+                    </p>
+                    <p class="mid_content t-content" style="z-index: 100">
+                      Sun World Fansipan Legend cũng thường xuyên tổ chức các lễ
+                      hội và sự kiện liên quan đến những loài hoa. Lễ hội hoa đỗ
+                      quyên đầu tiên trở thành một sự kiện thường niên của Sun
+                      World Fansipan Legend vào cuối mỗi mùa xuân, khi hàng
+                      triệu bông đỗ quyên của núi rừng Hoàng Liên khoe sắc.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="background_sea">
+              <div
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="400"
+                data-aos-offset="300"
+              >
+                <p class="mid_content t-content">
+                  Tôn chỉ "mỗi vùng đất một câu chuyện" được giữ vững ở mọi nơi
+                  mà Sun World đặt dấu ấn, dù mô hình cũ có thành công tới mức
+                  nào. Sun World Phu Quoc ở Hòn Thơm lại là một câu chuyện hoàn
+                  toàn khác: một công viên giải trí hòa mình với biển trời,
+                  nắng, cát và những tán rừng trên hòn đảo nhỏ nằm giữa vịnh An
+                  Thới. Nơi này được tạo thành từ những trò chơi với nước và
+                  những chi tiết kiến trúc gợi nhớ về các nền văn minh trên
+                  những hòn đảo nhiệt đới Thái Bình Dương.
+                </p>
+                <p class="mid_content t-content">
+                  Hòn Thơm là câu chuyện về một hòn đảo nhỏ, hoang sơ, nằm ở nơi
+                  chỉ có trời và biển. Những du khách sẽ bắt đầu bước chân vào
+                  truyền thuyết hoang sơ này từ cáp treo An Thới, công trình
+                  được thiết kế trông như một phế tích cổ đại - đi qua mặt vịnh
+                  với những hòn đảo không người, trước khi đặt chân xuống một
+                  "ngôi làng nhiệt đới".
+                </p>
+              </div>
+
+              <div id="list_img_sea_mobile">
+                <img
+                  class="img"
+                  src="assets/images/mobile_list_2.png"
+                  style="position: initial"
+                />
+              </div>
+              <div class="list_img_sea" id="list_img_sea">
+                <img
+                  class="img"
+                  src="assets/images/img_list_small_1.png"
+                  data-aos="fade-left"
+                  data-aos-easing="linear"
+                  data-aos-duration="900"
+                  data-aos-offset="300"
+                  data-aos-delay="300"
+                />
+                <img
+                  class="img"
+                  src="assets/images/img_list_small_2.png"
+                  data-aos="fade-right"
+                  data-aos-easing="linear"
+                  data-aos-duration="900"
+                  data-aos-offset="300"
+                  data-aos-delay="300"
+                />
+                <img
+                  class="img"
+                  src="assets/images/img_list_small_3.png"
+                  data-aos="fade-right"
+                  data-aos-easing="linear"
+                  data-aos-duration="900"
+                  data-aos-offset="300"
+                  style="position: initial"
+                />
+              </div>
+              <div class="container_mang_the_gioi_ve_vietNam">
+                <div class="list_image_text">
+                  <img
+                    src="assets/images/img_mang_the_gioi_group_1.png"
+                    style="position: initial"
+                    class="img"
+                  />
+                  <img
+                    src="assets/images/img_mang_the_gioi_group_2.png"
+                    class="img"
+                    data-aos="fade-left"
+                    data-aos-easing="linear"
+                    data-aos-duration="600"
+                    data-aos-offset="300"
+                  />
+                  <img
+                    src="assets/images/img_mang_the_gioi_group_3.png"
+                    class="img"
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="600"
+                    data-aos-offset="300"
+                  />
+                </div>
+                <div class="content_mang_the_gioi_ve_vietNam">
+                  <div
+                    data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="400"
+                    data-aos-offset="300"
+                  >
+                    <p class="mid_content t-content">
+                      Tầm nhìn "mang Việt Nam ra thế giới và mang thế giới đến
+                      Việt Nam" không thể chỉ hoàn thành bằng những ý tưởng và
+                      câu chuyện. Sun World đặt ra mục tiêu ngay từ đầu, là nâng
+                      tầm ngành du lịch Việt Nam bằng việc đổ công và của cải để
+                      mang về những dịch vụ tốt, thiết kế đẹp nhất thế giới về
+                      quê nhà.
+                    </p>
+                    <p class="mid_content t-content">
+                      Nhiều đối tác lớn trên thế giới đã cùng với Sun World kiến
+                      tạo nên các khu vui chơi giải trí trải dọc trên đất Việt
+                      Nam. Đó là nhà thiết kế ánh sáng làm lễ khai mạc World Cup
+                      1998 tại Pháp hay nhà thiết kế công viên cùng tạo ra kỳ
+                      tích Sentosa ở Singapore. Ngay cả những bức tượng trong
+                      các công viên, cũng được thi công bởi một trong những gia
+                      tộc điêu khắc lừng danh của thành Florence, Italy - những
+                      người đã thi công cánh cổng cho những giáo đường huyền
+                      thoại của xứ này. Hầu hết trong số họ đều không phải những
+                      đối tác dễ dàng nhận một dự án mới.
+                    </p>
+                  </div>
+                </div>
+                <img
+                  class="img img_mang_the_gioi"
+                  src="assets/images/img_mang_the_gioi_2.png"
+                  data-aos="fade-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="600"
+                  data-aos-offset="300"
+                />
+                <div
+                  data-aos="fade-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="400"
+                  data-aos-offset="300"
+                >
+                  <p class="mid_content t-content">
+                    Sự cầu kỳ của Sun World thể hiện qua câu chuyện về những chú
+                    ngựa ở Thác Thần Mặt Trời. Đó là một trong những dự án mới
+                    nhất để làm mới bộ mặt của Bà Nà Hills sau hơn 10 năm phục
+                    vụ du khách. Một vườn tượng với chủ đề những vị thần La Mã,
+                    lấy cảm hứng từ thác nước ở Cung điện mùa Đông St.
+                    Peterburg.
+                  </p>
+                </div>
+
+                <div class="container_tuong_vang">
+                  <div class="content_left">
+                    <p
+                      class="text_tuong_vang t-content"
+                      data-aos="fade-up"
+                      data-aos-easing="linear"
+                      data-aos-duration="400"
+                      data-aos-offset="300"
+                    >
+                      Trong quần thể tượng này, tượng thần Helios là trung tâm,
+                      nơi vị thần cưỡi 4 con chiến mã trên cỗ xe Mặt trời. Bốn
+                      con ngựa này, được nhà Frilli ở Florence đặt hàng điêu
+                      khắc gia Susan Leyland thiết kế. Bản thân nhà Frilli đã là
+                      dòng họ điêu khắc nổi danh thành Florence nhưng ngựa phải
+                      do Susan Leyland tạo dáng. Susan là người tạo nên những
+                      bức tượng ngựa nổi tiếng nhất nước Anh, trong đó có tượng
+                      đài ngựa trong Thế chiến thứ nhất dựng trước trường đua
+                      Ascot.
+                    </p>
+                    <img
+                      src="assets/images/than_1.png"
+                      alt=""
+                      class="img"
+                      data-aos="fade-up"
+                      data-aos-easing="linear"
+                      data-aos-duration="600"
+                      data-aos-offset="300"
+                    />
+                  </div>
+                  <div class="content_right">
+                    <img
+                      src="assets/images/than_2.png"
+                      alt=""
+                      class="img"
+                      data-aos="fade-up"
+                      data-aos-easing="linear"
+                      data-aos-duration="600"
+                      data-aos-offset="300"
+                      data-aos-delay="100"
+                    />
+                  </div>
+                </div>
+                <div
+                  data-aos="fade-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="400"
+                  data-aos-offset="300"
+                >
+                  <p class="mid_content t-content">
+                    Để vươn tới cái đẹp và đẳng cấp, Sun World không ngừng nâng
+                    cấp. Tạo ra từng mô hình cho từng vùng đất là một chuyện
+                    nhưng ngay cả những công viên giải trí đã rất thành công,
+                    cũng vẫn tiếp tục được bồi đắp các dự án mới bởi những đối
+                    tác hàng đầu.
+                  </p>
+                  <p class="mid_content t-content">
+                    Marco Casamonti, kiến trúc sư nổi tiếng của Italy với những
+                    công trình mang tầm biểu tượng quốc gia ở khắp nơi trên thế
+                    giới, đang thiết kế một hầm rượu mới cho Bà Nà Hills. Gọi là
+                    "hầm rượu" nhưng thực chất nó có quy mô của một bảo tàng
+                    nhỏ. Đây sẽ là nơi sản xuất ra những chai rượu theo tiêu
+                    chuẩn khắt khe của châu Âu nhưng kiến trúc lại mang đậm dấu
+                    ấn Việt Nam. Vị kiến trúc sư quyết định rằng nơi đây sẽ là
+                    hầm rượu duy nhất trên thế giới "đội" nón lá, và cấu thành
+                    từ nhiều nguyên liệu và chi tiết thuần Việt như hoa văn đất
+                    nung.
+                  </p>
+                  <p class="mid_content t-content">
+                    Hay tại Fansipan, ngay lúc này, chiến dịch "Đi tìm loài hoa
+                    trên đỉnh núi" vẫn tiếp tục, dù dự án đã đưa vào khai thác
+                    đến năm thứ 7.
+                  </p>
+                </div>
+
+                <img
+                  src="assets/images/img_cau_ke.png"
+                  class="img img_cau_kieu"
+                  data-aos="flip-left"
+                  data-aos-easing="linear"
+                  data-aos-duration="900"
+                  data-aos-offset="300"
+                />
+              </div>
+              <div
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="400"
+                data-aos-offset="300"
+              >
+                <p class="mid_content t-content">
+                  Nói đến Sun World, người ta sẽ dễ dàng nghĩ ngay đến Cầu Vàng.
+                  Đó là công trình nổi tiếng nhất của Sun World và cả Sun Group.
+                  Nhưng thực chất, một cây cầu biểu tượng, được báo chí thế giới
+                  nhắc đến không thể làm nên thành công của cả một dự án với một
+                  chuỗi những công viên giải trí đón hàng chục triệu lượt khách
+                  mỗi năm. Cầu Vàng là viên ngọc lớn trên một chuỗi hạt được Sun
+                  World xếp lên bản đồ Việt Nam, bằng sức lực, của cải và rất
+                  nhiều những giọt mồ hôi. Đằng sau biểu tượng Cầu Vàng hay
+                  nhiều công trình biểu tượng khác của Sun World là triết lý làm
+                  đẹp những vùng đất.
+                </p>
+              </div>
+
+              <div class="footer_may_bay">
+                <img src="assets/images/img_may3.png" class="may_5" />
+                <img src="assets/images/img_may_1.png" class="may_4" />
+                <img
+                  src="assets/images/img_footer.png"
+                  style="padding-bottom: 0; margin-bottom: 0"
+                  class="img"
+                />
+              </div>
+              <div class="author">
+                <p class="item t-content">Nội dung: <span>Đỗ Huệ</span></p>
+                <p class="col col-none">|</p>
+                <p class="item t-content">Video: <span>Minh Huy</span></p>
+                <p class="col col-none">|</p>
+                <p class="item t-content">Thiết kế: <span>Lavkowski</span></p>
+                <p class="col col-none">|</p>
+                <p class="t-content">Kỹ thuật: <span>Bá Sơn</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Main Content -->
+
+    <!-- COMMENTS BOX -->
+    <!-- END COMMENTS BOX -->
+
+    <!-- End Document Warpper -->
+
+    <!-- Core Script -->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="assets/js/jquery.migrate.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/header-sticky.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/jquery.nicescroll.min.js"
+    ></script>
+    <script type="text/javascript" src="assets/js/lib.min.js"></script>
+
+    <!-- End Core Script -->
+
+    <script type="text/javascript" src="assets/js/aos.js"></script>
+    <script type="text/javascript" src="assets/js/imagesStatus.min.js"></script>
+    <script type="text/javascript" src="assets/js/swiper.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.min.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
